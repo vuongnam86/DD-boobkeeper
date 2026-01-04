@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import { useAuthStore } from '../store/auth';
-import Login from '../components/Login.vue';
-import Dashboard from '../components/Dashboard.vue';
-import EmployeeList from '../components/EmployeeList.vue';
-import EmployeeCreate from '../components/EmployeeCreate.vue';
-import EmployeeEdit from '../components/EmployeeEdit.vue';
-import Payroll from '../components/Payroll.vue';
-import DailySales from '../components/DailySales.vue';
+import { useAuthStore } from '@/store/auth';
+import Login from '@/components/Login.vue';
+import Dashboard from '@/components/Dashboard.vue';
+import EmployeeList from '@/components/EmployeeList.vue';
+import EmployeeCreate from '@/components/EmployeeCreate.vue';
+import EmployeeEdit from '@/components/EmployeeEdit.vue';
+import Payroll from '@/components/Payroll.vue';
+import DailySales from '@/components/DailySales.vue';
 
 const routes = [
     { path: '/', redirect: '/dashboard' },
