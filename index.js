@@ -6,6 +6,7 @@ import EmployeeList from '../components/EmployeeList.vue';
 import EmployeeCreate from '../components/EmployeeCreate.vue';
 import EmployeeEdit from '../components/EmployeeEdit.vue';
 import Payroll from '../components/Payroll.vue';
+import DailySales from '../components/DailySales.vue';
 
 const routes = [
     { path: '/', redirect: '/dashboard' },
@@ -14,6 +15,7 @@ const routes = [
     { path: '/employees', component: EmployeeList, name: 'employees', meta: { requiresAuth: true } },
     { path: '/employees/create', component: EmployeeCreate, name: 'employees.create', meta: { requiresAuth: true } },
     { path: '/employees/:id/edit', component: EmployeeEdit, name: 'employees.edit', meta: { requiresAuth: true } },
+    { path: '/daily-sales', component: DailySales, name: 'daily-sales', meta: { requiresAuth: true } },
     { path: '/payroll', component: Payroll, name: 'payroll', meta: { requiresAuth: true } },
 ];
 

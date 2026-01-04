@@ -13,6 +13,9 @@
                         <router-link to="/employees" active-class="border-blue-500 text-gray-900" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Employees
                         </router-link>
+                        <router-link to="/daily-sales" active-class="border-blue-500 text-gray-900" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                            Daily Sales
+                        </router-link>
                         <router-link to="/payroll" active-class="border-blue-500 text-gray-900" class="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                             Payroll
                         </router-link>
